@@ -1,4 +1,4 @@
-FROM redhat/ubi8:latest
+FROM ubi8/python:latest
 
 RUN yum update -y && yum upgrade -y
 
